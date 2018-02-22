@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+ul>li:hover {
+    background-color: #F5F5F5;
+}
+.icon {
+    margin: 6px 10px 6px 0;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+}
+.done {
+    color: red;
+    text-decoration: line-through;
+}
+.undone {
+    color: #61DAFB;
+}

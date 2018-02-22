@@ -1,0 +1,6 @@
+<div class="form-inline">
+  <input class="new-todo" placeholder="add a new todo..." autofocus="" [(ngModel)]="newTodo.title"
+         (keyup.enter)="addTodo()" class="form-control">
+  <button class="btn btn-default" (click)="addTodo()">Add</button>
+</div>
+

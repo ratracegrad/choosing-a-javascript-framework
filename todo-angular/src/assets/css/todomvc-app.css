@@ -1,0 +1,13 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #bb0f29;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
